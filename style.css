@@ -1,0 +1,91 @@
+/* Global */
+body{
+  font-family: 'Gothic A1', sans-serif;
+  background-color: green;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.quoteBox{
+  background-color: #e6e6e6;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 270px;
+  position: relative;
+}
+
+/* Quote */
+.quoteText{
+  text-align: center;
+  font-size: 2.8em;
+  padding-top: 20px;
+}
+
+.quoteText i{
+  font-size: 60px;
+  color: green;
+}
+
+.quoteAuthor{
+  text-align: right;
+  margin-right: 54px;
+  font-size: 19px;
+  font-weight: 700;
+  color: green;
+}
+
+/* Buttons */
+.buttons{
+  color: #e6e6e6;
+  font: 1.2em 'Gothic A1', sans-serif;
+  overflow: hidden;
+}
+
+.button{
+  padding: 14px;
+  margin: 20px 50px 0 0;
+  float: right;
+}
+
+#newQuote{
+  background-color: green;
+  border-radius: 8px;
+}
+
+#newQuote:hover{
+  opacity: .7;
+}
+
+#tweetQuote{
+  float: left;
+  font-size: 3.4em;
+  margin-left: 50px;
+  margin-top: 0;
+  color: green;
+  cursor: pointer;
+}
+
+#tweetQuote:hover{
+  opacity: .7;
+}
+
+/* Footer */
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer a{
+  color: #e6e6e6;
+}
+
+footer a:hover{
+  color: #e6e6e6;
+}
+
+hr{
+  border-color: #333;
+}
